@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Flavanoids from './Components/Flavanoids';
+import Gamma from './Components/Gamma';
+import alcoholData from './DataSet'; 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+    
+      <Flavanoids data ={alcoholData}/>
+      <Gamma data = {alcoholData}/>
+
     </div>
   );
 }
