@@ -26,6 +26,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+![Screenshot 2024-01-02 at 11 19 48 AM](https://github.com/ujjawal-bytes/data-visualization/assets/62712582/8365fcb9-2485-43db-96d6-4bd07067e862)
 
 ## Learn More
 
